@@ -26,7 +26,7 @@ a {
 
 .header-padding {
     background-color: #1f2937;
-    padding: 0.5rem 0.1rem 1rem 0.1rem;
+    padding: 0.5rem 2rem 1rem 2rem;
 }
 
 .header {
@@ -42,4 +42,53 @@ a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one,
+.section-one-wrap {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.section-one-wrap {
+    max-width: 60rem;
+    padding: 48px 0px;
+    gap: 24px;
+}
+
+.section-one {
+    justify-content: center;
+}
+
+.section-one img {
+    width: 500px;
+    height: 250px;
+}
+
+.section-one-wrap .title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.section-one-wrap .subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
 }
