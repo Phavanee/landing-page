@@ -135,3 +135,30 @@ a {
     gap: 8px;
 }
 
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    max-width: 50rem;
+}
+
+.quote .quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:100;
+}
+
+.quote .quote-author {
+    color: #1f2937;
+    text-align: end;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
