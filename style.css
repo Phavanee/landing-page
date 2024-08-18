@@ -152,7 +152,7 @@ a {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
-    font-weight:100;
+    font-weight: 100;
 }
 
 .quote .quote-author {
@@ -162,3 +162,41 @@ a {
     font-weight: bolder;
 }
 
+.section-four {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0px;
+    max-width: 60rem;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    flex: auto;
+}
+
+.section-four .sign-up {
+    border: solid 2px white;
+}
+
+.section-four .title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    height: 80px;
+}
