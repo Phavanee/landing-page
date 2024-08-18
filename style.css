@@ -92,3 +92,46 @@ a {
     font-weight: 500;
     border: none;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.section-two .info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding: 16px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: solid 3px #3882f6;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    max-width: 60rem;
+    gap: 32px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+    color: #56616e;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
